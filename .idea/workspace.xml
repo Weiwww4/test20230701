@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project Init!!!">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/ssh_code.code" afterDir="false" />
+    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project Test!!!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/SwingDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/faintdream/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +54,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.RunnableDemo">
+  <component name="RunManager" selected="应用程序.SwingDemo01">
     <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.faintdream.RunnableDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.RunnableDemo" />
       <module name="test20230701" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +68,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.faintdream.Test" />
+    <configuration name="SwingDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.SwingDemo01" />
       <module name="test20230701" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.faintdream.*" />
+          <option name="PATTERN" value="com.faintdream.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.Test01" />
+      <module name="test20230701" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.faintdream.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.ThreadDemo" />
+      <module name="test20230701" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.faintdream.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SwingDemo01" />
+        <item itemvalue="应用程序.ThreadDemo" />
         <item itemvalue="应用程序.RunnableDemo" />
-        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688217959528</updated>
-      <workItem from="1688217961138" duration="4535000" />
+      <workItem from="1688217961138" duration="7199000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init!!!">
       <option name="closed" value="true" />
@@ -117,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688218147285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project Test!!!">
+      <option name="closed" value="true" />
+      <created>1688222615917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688222615917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Init!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Init!!!" />
+    <MESSAGE value="Project Test!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Test!!!" />
   </component>
 </project>

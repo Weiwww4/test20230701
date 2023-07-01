@@ -1,4 +1,4 @@
-package com.faintdream;
+package com.faintdream.test1;
 
 public class RunnableDemo implements Runnable {
     private Thread thread;
