@@ -2,6 +2,8 @@ package com.faintdream.test1;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SwingDemo01 {
     public static void main(String[] args) {
@@ -25,6 +27,15 @@ public class SwingDemo01 {
         // 创建确认按钮
         JButton button = new JButton("确认");
         button.setFont(new Font("Arial", Font.PLAIN, 16));
+
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 关闭窗口
+                frame.dispose();
+                System.out.println("Close Window");
+            }
+        });
 
         // 将文本标签和按钮添加到面板
         panel.add(label, BorderLayout.CENTER);

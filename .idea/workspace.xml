@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project Test!!!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/CallableThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/SwingDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/SwingDemo01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -44,6 +47,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/amber/IdeaProjects/test20230701/src/main/java/com/faintdream/Main.java",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,7 +59,34 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SwingDemo01">
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle 任务" flag="true" />
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP 请求" flag="true" />
+      <visibility group="Maven 目标" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="应用程序.CallableThreadTest">
+    <configuration name="CallableThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.CallableThreadTest" />
+      <module name="test20230701" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.faintdream.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.RunnableDemo" />
       <module name="test20230701" />
@@ -110,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CallableThreadTest" />
         <item itemvalue="应用程序.SwingDemo01" />
         <item itemvalue="应用程序.ThreadDemo" />
         <item itemvalue="应用程序.RunnableDemo" />
@@ -126,6 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688217959528</updated>
       <workItem from="1688217961138" duration="7502000" />
+      <workItem from="1688260605282" duration="143000" />
+      <workItem from="1688260799645" duration="1853000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init!!!">
       <option name="closed" value="true" />
