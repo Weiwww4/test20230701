@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project Test!!!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/tool/util/IOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Alimama_ShuHeiTi_Bold.ttf" afterDir="false" />
+    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project by window!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/SwingDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/SwingDemo01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/amber/IdeaProjects/test20230701/src/main/java/com/faintdream/Main.java",
     "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "project.scopes",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -178,7 +175,7 @@
       <workItem from="1688217961138" duration="7502000" />
       <workItem from="1688260605282" duration="143000" />
       <workItem from="1688260799645" duration="1853000" />
-      <workItem from="1688263462314" duration="3093000" />
+      <workItem from="1688263462314" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init!!!">
       <option name="closed" value="true" />
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688225599157</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Project by window!!!">
+      <created>1688266881544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688266881545</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Init!!!" />
     <MESSAGE value="Project Test!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Test!!!" />
+    <MESSAGE value="Project by window!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project by window!!!" />
   </component>
 </project>
