@@ -14,7 +14,8 @@ public class PromptWindow extends JFrame implements FontStyle{
 
     public static void main(String[] args) throws IOException, FontFormatException {
         // new PromptWindow().show();
-        new PromptWindow().setVisible(true);
+        PromptWindow promptWindow = new PromptWindow();
+        promptWindow.show();
     }
 
 
@@ -40,10 +41,10 @@ public class PromptWindow extends JFrame implements FontStyle{
 
         // 设置窗口大小和位置
         setSize(300, 200);
-        setLocationRelativeTo(null); // 居中显示窗口
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Font MyFont = PromptWindow.fontByFile(IOUtil.getFile("Alimama_ShuHeiTi_Bold.ttf")).deriveFont(Font.PLAIN, 8);
-        getContentPane().setFont(MyFont);
+//        setLocationRelativeTo(null); // 居中显示窗口
+//        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        Font MyFont = PromptWindow.fontByFile(IOUtil.getFile("Alimama_ShuHeiTi_Bold.ttf")).deriveFont(Font.PLAIN, 8);
+//        getContentPane().setFont(MyFont);
 
         // 创建面板
         JPanel panel = new JPanel();
@@ -60,21 +61,21 @@ public class PromptWindow extends JFrame implements FontStyle{
         // button.setFont(new Font("Default", Font.PLAIN, 16));
         PromptWindow.setFont(button);
 
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // 关闭窗口
-                dispose();
-                System.out.println("关闭窗口[Close Window]");
-            }
-        });
+//        button.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                // 关闭窗口
+//                dispose();
+//                System.out.println("关闭窗口[Close Window]");
+//            }
+//        });
 
-        // 将文本标签和按钮添加到面板
-        panel.add(label, BorderLayout.CENTER);
-        panel.add(button, BorderLayout.SOUTH);
-
-        // 将面板添加到窗口
-        add(panel);
+//        // 将文本标签和按钮添加到面板
+//        panel.add(label, BorderLayout.CENTER);
+//        panel.add(button, BorderLayout.SOUTH);
+//
+//        // 将面板添加到窗口
+//        add(panel);
     }
 
     public static void setFont(JComponent component, File file){
