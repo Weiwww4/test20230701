@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project by window!!!">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/simsun.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/纸箱.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/faintdream/test1/UIManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/FontStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/FontStyle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/PromptWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/faintdream/test1/PromptWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.Test01" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.ThreadDemo" />
       <module name="test20230701" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.ThreadDemo" />
+    <configuration name="UIManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.faintdream.test1.UIManagerTest" />
       <module name="test20230701" />
       <extension name="coverage">
         <pattern>
@@ -158,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.PromptWindow" />
+        <item itemvalue="应用程序.UIManagerTest" />
         <item itemvalue="应用程序.ThreadDemo" />
         <item itemvalue="应用程序.CallableThreadTest" />
         <item itemvalue="应用程序.RunnableDemo" />
-        <item itemvalue="应用程序.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -262,5 +267,12 @@
     <MESSAGE value="Project Test!!!" />
     <MESSAGE value="Project by window!!!" />
     <option name="LAST_COMMIT_MESSAGE" value="Project by window!!!" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="fontUIResource.font2DHandle" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
