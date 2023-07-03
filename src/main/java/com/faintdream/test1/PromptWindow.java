@@ -13,9 +13,8 @@ import java.io.IOException;
 public class PromptWindow extends JFrame implements FontStyle{
 
     public static void main(String[] args) throws IOException, FontFormatException {
-        // new PromptWindow().show();
         PromptWindow promptWindow = new PromptWindow();
-        promptWindow.show();
+        promptWindow.setVisible(true);
     }
 
 
@@ -27,24 +26,16 @@ public class PromptWindow extends JFrame implements FontStyle{
         init();
     }
 
-    /**
-     * 显示窗口
-     * */
-    public void show(){
-        // 显示窗口
-        setVisible(true);
-    }
-
     public void init() throws IOException, FontFormatException {
         // 设置窗口标题
         setTitle("窗口示例");
 
         // 设置窗口大小和位置
         setSize(300, 200);
-//        setLocationRelativeTo(null); // 居中显示窗口
-//        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        Font MyFont = PromptWindow.fontByFile(IOUtil.getFile("Alimama_ShuHeiTi_Bold.ttf")).deriveFont(Font.PLAIN, 8);
-//        getContentPane().setFont(MyFont);
+        setLocationRelativeTo(null); // 居中显示窗口
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Font MyFont = PromptWindow.fontByFile(IOUtil.getFile("Alimama_ShuHeiTi_Bold.ttf")).deriveFont(Font.PLAIN, 8);
+        getContentPane().setFont(MyFont);
 
         // 创建面板
         JPanel panel = new JPanel();
@@ -53,29 +44,29 @@ public class PromptWindow extends JFrame implements FontStyle{
         // 创建提示文本标签
         JLabel label = new JLabel("以下操作将有一定风险,请确认");
         label.setHorizontalAlignment(JLabel.CENTER);
-        // label.setFont(new Font("Default", Font.PLAIN, 20));
+        label.setFont(new Font("Default", Font.PLAIN, 20));
         PromptWindow.setFont(label);
 
         // 创建确认按钮
         JButton button = new JButton("确认");
-        // button.setFont(new Font("Default", Font.PLAIN, 16));
+        button.setFont(new Font("Default", Font.PLAIN, 16));
         PromptWindow.setFont(button);
 
-//        button.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                // 关闭窗口
-//                dispose();
-//                System.out.println("关闭窗口[Close Window]");
-//            }
-//        });
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 关闭窗口
+                dispose();
+                System.out.println("关闭窗口[Close Window]");
+            }
+        });
 
-//        // 将文本标签和按钮添加到面板
-//        panel.add(label, BorderLayout.CENTER);
-//        panel.add(button, BorderLayout.SOUTH);
-//
-//        // 将面板添加到窗口
-//        add(panel);
+        // 将文本标签和按钮添加到面板
+        panel.add(label, BorderLayout.CENTER);
+        panel.add(button, BorderLayout.SOUTH);
+
+        // 将面板添加到窗口
+        add(panel);
     }
 
     public static void setFont(JComponent component, File file){
