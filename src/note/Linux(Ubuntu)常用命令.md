@@ -8,7 +8,8 @@
 
 * wget `wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.zip`
   下载文件(支持 HTTP、HTTPS 和 FTP 协议)
-  * ``
+  * `wget -b https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.zip`
+  htxz
 
 * netstat `netstat` 显示网络连接、路由表和网络统计信息
 
