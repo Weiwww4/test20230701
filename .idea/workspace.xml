@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project by window!!!">
-      <change afterPath="$PROJECT_DIR$/src/note/Linux()常用命令.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +190,8 @@
       <workItem from="1688263462314" duration="3963000" />
       <workItem from="1688356547916" duration="3934000" />
       <workItem from="1688467634780" duration="7314000" />
-      <workItem from="1688482982993" duration="2581000" />
+      <workItem from="1688482982993" duration="2830000" />
+      <workItem from="1688486813530" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init!!!">
       <option name="closed" value="true" />
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688482564312</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Project by window!!!">
+      <created>1688486637803</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688486637803</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
