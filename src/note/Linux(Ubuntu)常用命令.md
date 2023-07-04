@@ -12,4 +12,7 @@
   htxz
 
 * netstat `netstat` 显示网络连接、路由表和网络统计信息
+  * `netstat -a`  
+  * `netstat -l`
+  * `netstat -p`
 
