@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project by window!!!" />
+    <list default="true" id="1bab9250-4020-44a9-9c8b-42b89e140bb7" name="更改" comment="Project by Linux!!!">
+      <change afterPath="$PROJECT_DIR$/src/note/window系统类似于wget的命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +81,7 @@
       <recent name="D:\study\test20230701\src\main\java\com\faintdream\tool\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\test20230701\src\note" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -191,7 +195,8 @@
       <workItem from="1688482982993" duration="2830000" />
       <workItem from="1688486813530" duration="775000" />
       <workItem from="1688487631801" duration="178000" />
-      <workItem from="1688510848949" duration="889000" />
+      <workItem from="1688510848949" duration="1939000" />
+      <workItem from="1688512891954" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init!!!">
       <option name="closed" value="true" />
@@ -317,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688511788569</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Project by Linux!!!">
+      <created>1688512011952</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688512011952</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +350,8 @@
     <MESSAGE value="Project Init!!!" />
     <MESSAGE value="Project Test!!!" />
     <MESSAGE value="Project by window!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project by window!!!" />
+    <MESSAGE value="Project by Linux!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project by Linux!!!" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -12,7 +12,10 @@
   htxz
 
 * netstat `netstat` 显示网络连接、路由表和网络统计信息
-  * `netstat -a`  
-  * `netstat -l`
-  * `netstat -p`
+  * `netstat -a` 显示所有活动的网络连接  
+  * `netstat -l` 显示监听状态的端口
+  * `netstat -p` 显示进程与网络连接之间的关联
+  * `netstat -i` 显示当前系统上的网络接口信息
+  * `netstat -c` 显示当前接口的所有连接信息
+
 
